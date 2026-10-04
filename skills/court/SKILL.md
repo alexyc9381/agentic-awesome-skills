@@ -122,6 +122,13 @@ Rules for you, the clerk:
 - If the user disagrees with the verdict, offer a retrial with the changes from "Conditions for
   acquittal" written into a new case file. Do not argue for either side yourself.
 
+## Examples
+
+```text
+/court Quit my job to sell candles on Etsy full time. I have $8,000 saved and 40 sales so far.
+/court --quick The plan you just gave me is the right one.
+```
+
 ## Limitations
 
 - The jury is made of language models: treat the verdict as a structured second opinion, not legal, financial or professional advice.

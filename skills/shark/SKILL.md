@@ -115,6 +115,13 @@ Rules for you, the host:
   so once if the user treats an offer as a valuation.
 - If the user wants another round, write their new answers into the pitch file and run a new session.
 
+## Examples
+
+```text
+/shark A subscription box of local hot sauces. $35 a month, 12 customers so far, I want to reach 500.
+/shark --investors 10 [paste your pitch deck text]
+```
+
 ## Limitations
 
 - The investors are language models and the offers are practice numbers, not real money and not financial advice.
