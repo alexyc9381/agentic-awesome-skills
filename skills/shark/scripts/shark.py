@@ -33,7 +33,7 @@ CREDIT = ("_Made with [/shark](https://github.com/alexyc9381/shark-skill), a fre
 
 
 def load_investors():
-    with open(os.path.join(HERE, "investors.json")) as f:
+    with open(os.path.join(HERE, "..", "references", "investors.json")) as f:
         return json.load(f)
 
 
@@ -229,7 +229,7 @@ def cmd_init(args):
     with open(LATEST, "w") as f:
         f.write(rd)
     print("shark: session opened in %s (%d investors, seed %d)" % (rd, n, seed))
-    print("next: python3 shark.py prompts grill")
+    print("next: python3 scripts/shark.py prompts grill")
 
 
 def cmd_prompts(args):

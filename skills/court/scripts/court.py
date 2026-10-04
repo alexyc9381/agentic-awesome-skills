@@ -37,7 +37,7 @@ CHARGE = "The case fails as stated: it should not go ahead the way it is describ
 # ---------- state ----------
 
 def load_jurors():
-    with open(os.path.join(HERE, "jurors.json")) as f:
+    with open(os.path.join(HERE, "..", "references", "jurors.json")) as f:
         return json.load(f)
 
 
@@ -267,7 +267,7 @@ def cmd_init(args):
     with open(LATEST, "w") as f:
         f.write(rd)
     print("court: trial opened in %s (jury of %d, seed %d)" % (rd, n, seed))
-    print("next: python3 court.py prompts opening")
+    print("next: python3 scripts/court.py prompts opening")
 
 
 def cmd_prompts(args):

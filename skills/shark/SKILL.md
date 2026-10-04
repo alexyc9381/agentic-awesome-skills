@@ -33,10 +33,10 @@ If that is blank, or still reads like a placeholder, take the idea from the conv
 
 ## The tool
 
-Every piece of bookkeeping goes through `shark.py` in this skill's folder:
+Every piece of bookkeeping goes through `scripts/shark.py` in this skill's folder:
 
 ```bash
-python3 "${CLAUDE_SKILL_DIR}/shark.py" <command>
+python3 "${CLAUDE_SKILL_DIR}/scripts/shark.py" <command>
 ```
 
 Below, `SHARK` means exactly that command. If the path looks unexpanded, use the "Base directory for

@@ -35,10 +35,10 @@ plan or claim the user most recently wanted an opinion on.
 
 ## The tool
 
-Every piece of bookkeeping goes through `court.py` in this skill's folder:
+Every piece of bookkeeping goes through `scripts/court.py` in this skill's folder:
 
 ```bash
-python3 "${CLAUDE_SKILL_DIR}/court.py" <command>
+python3 "${CLAUDE_SKILL_DIR}/scripts/court.py" <command>
 ```
 
 Below, `COURT` means exactly that command. If the path looks unexpanded, use the "Base directory for
